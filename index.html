@@ -1,0 +1,18 @@
+<!DOCTYPE html> <!-- Объявляет что это HTML5 документ -->
+<html lang="ru"> <!-- Начало HTML документа, язык - русский -->
+<head> <!-- Секция с мета-информацией -->
+    <meta charset="UTF-8"> <!-- Кодировка символов (русские буквы) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Адаптивность для мобильных -->
+    <title>Простой калькулятор</title> <!-- Заголовок вкладки браузера -->
+    <link rel="stylesheet" href="style.css"> <!-- Подключает CSS файл -->
+</head>
+<body> <!-- Тело страницы (видимая часть) -->
+    <div class="container"> <!-- Контейнер для группировки элементов -->
+        <input type="number" id="num1" placeholder="Первое число"> <!-- Поле для ввода чисел -->
+        <input type="number" id="num2" placeholder="Второе число"> <!-- Второе поле для чисел -->
+        <button id="calculateBtn">Посчитать</button> <!-- Кнопка для вычислений -->
+        <div id="result"></div> <!-- Блок для вывода результата (пока пустой) -->
+    </div>
+    <script src="script.js"></script> <!-- Подключает JavaScript файл -->
+</body>
+</html>
